@@ -1,5 +1,6 @@
 #include "binary_trees.h"
 #include <stddef.h>
+#include <stdlib.h>
 
 /**
  * binary_tree_insert_left - function to insert a node as the left child of another node
@@ -24,12 +25,12 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 	new_node->parent = parent;
 	new_node->left = NULL;
 	new_node->right = NULL;
-	if (parent-> != NULL)
+	if (parent->left != NULL)
 	{
 		new_node->left = parent->left;
 		parent->left->parent = new_node;
 	}
 
-	parent-> = new_node;
+	parent->left = new_node;
 	return (new_node);
 }
