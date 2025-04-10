@@ -3,7 +3,8 @@
 #include <stdlib.h>
 
 /**
- * binary_tree_preorder - function that goes through a binary tree using pre_order traversal
+ * binary_tree_preorder - function that goes through a binary tree
+ * using pre_order traversal
  * @tree: pointer to the root node of the tree
  * @func: function to call for each node value
  */
