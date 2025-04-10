@@ -3,9 +3,10 @@
 #include <stdlib.h>
 
 /**
- * binary_tree_insert_left - function to insert a node
+ * binary_tree_insert_right - function to insert a node
  * as the left child of another node
  * @parent: pointer to the parent node * @value: value of the node to add
+ * @value: value to add in the tree
  *
  * Return: pointer to the created node or NULL if it fail or if parent is NULL
  */
