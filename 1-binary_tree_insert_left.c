@@ -3,7 +3,8 @@
 #include <stdlib.h>
 
 /**
- * binary_tree_insert_left - function to insert a node as the left child of another node
+ * binary_tree_insert_left - function to insert a node
+ * as the left child of another node
  * @parent: pointer to the parent node
  * @value: value of the node to add
  *
