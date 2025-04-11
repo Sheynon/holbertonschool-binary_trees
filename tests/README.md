@@ -48,3 +48,14 @@ typedef struct binary_tree_s binary_tree_t;
 typedef struct binary_tree_s bst_t;
 typedef struct binary_tree_s avl_t;
 typedef struct binary_tree_s heap_t;
+
+## Example Compilation
+
+gcc -Wall -Wextra -Werror -pedantic -std=gnu89 12-main.c 12-binary_tree_leaves.c binary_tree_print.c 0-binary_tree_node.c -o 12-leaves
+./12-leaves
+
+## Authors
+
+- Florian Chereau
+- Jonathan Labaldie
+- Romain Le Boulzec
